@@ -1,4 +1,4 @@
-#pragma comment (lib, "zlib.lib")
+#pragma comment (lib, "libz.lib")
 
 #define ZLIB_WINAPI
 
@@ -324,49 +324,6 @@ GMEXPORT double gzzip(const char* file, const char* dest)
 
 		fclose(in);
 		gzclose(out);
-		return 0;
-	}
-	catch (std::exception e)
-	{
-		return -1;
-	}
-}
-
-GMEXPORT double json_file_convert_unicode(const char* file, const char* dest)
-{
-	try
-	{
-		wstring wfile = towstr(file);
-		wstring wdest = towstr(dest);
-
-		if (!filesystem::exists(wfile))
-			return -1;
-
-		if (filesystem::exists(wdest))
-		{
-			addperms(wdest);
-			filesystem::remove(wdest);
-		}
-
-		wifstream in(wfile);
-		ofstream out(wdest);
-
-		in.imbue(locale(locale::empty(), new codecvt_utf8<wchar_t>));
-
-		for (istreambuf_iterator<wchar_t> it(in), end; it != end; ++it)
-		{
-			wchar_t wch = *it;
-			wstring wstr(1, wch);
-			string str = tostr(wstr);
-			if (str.length() > 1)
-				out << "\\u" << toHex((unsigned int)wch, 4);
-			else
-				out << str;
-		}
-
-		in.close();
-		out.close();
-
 		return 0;
 	}
 	catch (std::exception e)

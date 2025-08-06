@@ -1,0 +1,25 @@
+﻿  main.cpp
+  unzip.cpp
+C:\Users\chenx\Documents\GitHub\file-DLL\file\main.cpp(21,70): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\chenx\Documents\GitHub\file-DLL\file\main.cpp(29,71): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\chenx\Documents\GitHub\file-DLL\file\main.cpp(287,15): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\main.cpp(322,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\chenx\Documents\GitHub\file-DLL\file\main.cpp(319,14): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(3873,134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(3919,3): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(3984,3): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4087,25): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4105,46): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4106,27): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4168,26): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4170,22): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4171,11): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+C:\Users\chenx\Documents\GitHub\file-DLL\file\unzip.cpp(4251,3): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+    正在创建库 C:\Users\chenx\Documents\GitHub\file-DLL\x64\Release\file.lib 和对象 C:\Users\chenx\Documents\GitHub\file-DLL\x64\Release\file.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 292 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  file.vcxproj -> C:\Users\chenx\Documents\GitHub\file-DLL\x64\Release\file.dll
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
